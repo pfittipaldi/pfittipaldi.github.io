@@ -1,115 +1,75 @@
----
----
+@INPROCEEDINGS{fittipaldi2024sat,
+author = {Fittipaldi, Paolo and Teramoto, Kentaro and Benchasattabuse, Naphan and Hajdusek, Michal and Van Meter, Rodney and Grosshans, Frederic },
+booktitle = { 2024 IEEE International Conference on Quantum Computing and Engineering (QCE) },
+title = {{ Entanglement Swapping in Orbit: a Satellite Quantum Link Case Study }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {1924-1930},
+abstract = { Satellite quantum communication is a promising way to build long distance quantum links, making it an essential complement to optical fiber for quantum internetworking beyond metropolitan scales. A satellite point to point optical link differs from the more common fiber links in many ways, both quantitative (higher latency, strong losses) and qualitative (nonconstant parameter values during satellite passage, intermittency of the link, impossibility to set repeaters between the satellite and the ground station). We study here the performance of a quantum link between two ground stations, using a quantum-memory-equipped satellite as a quantum repeater. In contrast with quantum key distribution satellite links, the number of available quantum memory slots m, together with the unavoidable round-trip communication latency t of at least a few milliseconds, severely reduces the effective average repetition rate to m/t-at most a few kilohertz for foreseeable quantum memories. Our study uses two approaches, which validate each other: 1) a simple analytical model of the effective rate of the quantum link; 2) an event-based simulation using the open source Quantum Internet Simulation Package (QuISP). The important differences between satellite and fiber links led us to modify QuISP itself. This work paves the way to the study of hybrid satellite-and fiber-based quantum repeater networks interconnecting different metropolitan areas. },
+keywords = {Satellites;Quantum computing;Quantum entanglement;Urban areas;Optical fiber networks;Repeaters;Orbits;Quantum key distribution;Quantum repeaters;Quantum communication},
+doi = {10.1109/QCE60285.2024.00222},
+url = {https://doi.ieeecomputersociety.org/10.1109/QCE60285.2024.00222},
+arxiv = {2405.07589},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+selected = true,
+month =sep}
 
-@string{aps = {American Physical Society,}}
+@ARTICLE{fittipaldi2024scheduling,
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
+  author={Fittipaldi, Paolo and Giovanidis, Anastasios and Grosshans, Frédéric},
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
+  journal={IEEE Transactions on Quantum Engineering}, 
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
+  title={A Linear Algebraic Framework for Dynamic Scheduling Over Memory-Equipped Quantum Networks}, 
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
+  year={2023},
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
+  month={12},
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
+  volume={5},
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
+  number={},
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
+  pages={1-18},
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+  arxiv = {2307.06009},
+
+  abstract = {Quantum internetworking is a recent field that promises numerous interesting applications, many of which require the distribution of entanglement between arbitrary pairs of users. This article deals with the problem of scheduling in an arbitrary entanglement swapping quantum network—often called first-generation quantum network—in its general topology, multicommodity, loss-aware formulation. We introduce a linear algebraic framework that exploits quantum memory through the creation of intermediate entangled links. The framework is then employed to apply Lyapunov drift minimization (a standard technique in classical network science) to mathematically derive a natural class of scheduling policies for quantum networks minimizing the square norm of the user demand backlog. Moreover, an additional class of Max-Weight-inspired policies is proposed and benchmarked, reducing significantly the computation cost at the price of a slight performance degradation. The policies are compared in terms of information availability, localization, and overall network performance through an ad hoc simulator that admits user-provided network topologies and scheduling policies in order to showcase the potential application of the provided tools to quantum network design.},
+
+  keywords={Quantum networks;Quantum entanglement;Switches;Optical fiber networks;Queueing analysis;Qubit;Dynamic scheduling;Integer programming;Quantum communication;Scheduling;Teleportation;Lyapunov methods;Dynamic scheduling;integer programming;Lyapunov methods;quantum communication;quantum entanglement;quantum networks;queuing analysis;scheduling;scheduling algorithms;teleportation},
+
+  selected = true,
+
+  doi={10.1109/TQE.2023.3341151}}
+
+  @INPROCEEDINGS{fittipaldi2022scheduling,
+
+  author={Fittipaldi, Paolo and Giovanidis, Anastasios and Grosshans, Frédéric},
+
+  booktitle={2022 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+
+  title={A Linear Algebraic Framework for Quantum Internet Dynamic Scheduling}, 
+
+  year={2022},
+
+  volume={},
+
+  number={},
+
+  pages={447-453},
+
+  abstract={Future quantum internet aims to enable quantum communication between arbitrary pairs of distant nodes through the sharing of end-to-end entanglement, a universal resource for many quantum applications. As in classical networks, quantum networks also have to resolve problems related to routing and satisfaction of service at a sufficient rate. We deal here with the problem of scheduling when multiple commodities must be served through a quantum network based on first generation quantum repeaters, or quantum switches. To this end, we introduce a novel discrete-time algebraic model for arbitrary network topology, including transmission and memory losses, and adapted to dynamic scheduling decisions.Our algebraic model allows the scheduler to use the storage of temporary intermediate links to optimize the performance, depending on the information availability, ranging from full global information for a centralized scheduler to partial local information for a distributed one. As an illustrative example, we compare a simple greedy scheduling policy with several Max-Weight inspired scheduling policies and illustrate the resulting achievable rate regions for two competing pairs of clients through a network.},
+
+  keywords={Adaptation models;Quantum entanglement;Processor scheduling;Network topology;Dynamic scheduling;Routing;Repeaters},
+
+  doi={10.1109/QCE53715.2022.00066},
+
+  arxiv={2205.10000},
+
+  ISSN={},
+
+  selected = true,
+
+  month={Sep.},}
