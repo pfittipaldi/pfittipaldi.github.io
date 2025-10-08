@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Quantum Networks researcher focusing on the problem of scheduling in quantum repeater networks in fiber and free space. I recently obtained my PhD in Computer Science from [Sorbonne University](https://sciences.sorbonne-universite.fr/), with a thesis titled ["Dynamic Scheduling in Fiber and Spaceborne Quantum Repeater Networks"](https://theses.fr/s390509).
+I am a Quantum Networks researcher focusing on the problem of scheduling in quantum repeater networks in fiber and free space. I recently obtained my PhD in Computer Science from [Sorbonne University](https://sciences.sorbonne-universite.fr/), with a thesis titled ["Dynamic Scheduling in Fiber and Spaceborne Quantum Repeater Networks"](https://arxiv.org/abs/2510.05854).
 
 My background in in engineering: other than my PhD, I hold a Bachelor's Degree in Physical Engineering and a Master's Degree in Nanotechnologies for ICTs from [Politecnico di Torino](https://www.polito.it/en). I also hold a French M2 diploma in Quantum Devices from [Université Paris Cité](https://u-paris.fr/).
 
